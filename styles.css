@@ -1,0 +1,43 @@
+.myD {
+    width: 584px;
+    margin: 0 auto;
+}
+
+.myTXA {
+    width: 240px;
+    height: 50px;
+    resize: none;
+}
+
+.title_1 {
+    width: 150px;
+    height: 53px;
+    float: right;
+    margin-left: 1rem;
+    background-color: rgb(234, 207, 36);
+    border: 2px solid rgb(148, 130, 12);
+    color: azure;
+    opacity: 0;
+    transition: all 1.5s ease;
+    text-align: center;
+    -webkit-transition: all 1.5s ease;
+    -moz-transition: all 1.5s ease;
+    -ms-transition: all 1.5s ease;
+    -o-transition: all 1.5s ease;
+}
+
+.title_2 {
+    width: 150px;
+    height: 53px;
+    float: right;
+    background-color: rgb(234, 36, 36);
+    border: 2px solid rgb(148, 12, 12);
+    color: azure;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
